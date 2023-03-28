@@ -121,8 +121,10 @@ cv2.destroyAllWindows()
 # v) Split and merge HSV Image
 
 import cv2
-
 myimage = cv2.imread("d5output.jpg")
+cv2.imshow("Original_BGR", myimage)
+
+
 hsv = cv2.cvtColor(myimage , cv2.COLOR_BGR2HSV)
 cv2.imshow("initial hsv ", hsv)
 

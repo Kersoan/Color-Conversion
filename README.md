@@ -1,4 +1,4 @@
-# Color Conversion
+#EX-03--Color Conversion
 ## AIM
 To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 
@@ -29,14 +29,14 @@ Output the image using cv2.imshow()
 
 ## Program:
 ```python
-# Developed By: 212221240040
-# Register Number: Pranave B
+# Developed By: 212221230050
+# Register Number: Kersoan P
 
 # i) Convert BGR and RGB to HSV and GRAY
 
 import cv2
 
-myimage = cv2.imread('volcano640.png')
+myimage = cv2.imread('d1.jpg')
 cv2.imshow('Original Image',myimage)
 
 
@@ -61,7 +61,7 @@ cv2.destroyAllWindows()
 
 # ii)Convert HSV to RGB and BGR
 
-myimage = cv2.imread("space.jpg")
+myimage = cv2.imread("d2.jpg")
 image= cv2.resize(myimage, (465,324))
 
 #BGR2HSV
@@ -84,7 +84,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("nb.png")
+myimage = cv2.imread("d3.jpg")
 
 cv2.imshow("Original_BGR", myimage)
 
@@ -103,7 +103,7 @@ cv2.destroyAllWindows()
 
 # iv)Split and Merge RGB Image
 
-myimage = cv2.imread("b.png")
+myimage = cv2.imread("d4.jpg")
 
 
 b,g,r = cv2.split(myimage)
@@ -121,7 +121,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("t.png")
+myimage = cv2.imread("d5.jpg")
 hsv = cv2.cvtColor(myimage , cv2.COLOR_BGR2HSV)
 cv2.imshow("initial hsv ", hsv)
 

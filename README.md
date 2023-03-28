@@ -37,7 +37,7 @@ Output the image using cv2.imshow()
 
 import cv2
 
-myimage = cv2.imread('d1.jpg')
+myimage = cv2.imread('d1output.jpg')
 cv2.imshow('Original Image',myimage)
 
 
@@ -62,7 +62,7 @@ cv2.destroyAllWindows()
 
 # ii)Convert HSV to RGB and BGR
 
-myimage = cv2.imread("d2.jpg")
+myimage = cv2.imread("d2output.jpg")
 image= cv2.resize(myimage, (465,324))
 
 #BGR2HSV
@@ -85,7 +85,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("d3.jpg")
+myimage = cv2.imread("d3output.jpg")
 
 cv2.imshow("Original_BGR", myimage)
 
@@ -104,7 +104,7 @@ cv2.destroyAllWindows()
 
 # iv)Split and Merge RGB Image
 
-myimage = cv2.imread("d4.jpg")
+myimage = cv2.imread("d4output.jpg")
 
 
 b,g,r = cv2.split(myimage)
@@ -122,7 +122,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-myimage = cv2.imread("d5.jpg")
+myimage = cv2.imread("d5output.jpg")
 hsv = cv2.cvtColor(myimage , cv2.COLOR_BGR2HSV)
 cv2.imshow("initial hsv ", hsv)
 

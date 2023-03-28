@@ -143,25 +143,25 @@ cv2.destroyAllWindows()
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 
-![](OG.jpg)![](BGR2HSV.jpg)![](RGB2HSV.jpg)![](BGR2GRAY.jpg)![](RGB2GRAY.jpg)
+![](d1output.jpg)
 <br>
 
 ### ii) HSV to RGB and BGR
-![](HSV.jpg)![](HSV2RGB.jpg)![](HSV2BGR.jpg)
+![](d2output.jpg)
 
 <br> 
 
 ### iii) RGB and BGR to YCrCb
-![](Original_BGR.jpg)![](BGR2YCrCB.jpg)![](BGR2RGB.jpg)![](RGB2YCrCb.jpg)
+![](d3output.jpg)
 
 
 
 ### iv) Split and merge RGB Image
-![](red_model.jpg)![](green_model.jpg)![](blue_model.jpg)![](merged.jpg)
+![](d4output.jpg)
 <br>
 
 ### v) Split and merge HSV Image
-![](initial_hsv.jpg)![](hue_model.jpg)![](sat_model.jpg)![](value_model.jpg)![](merged_img.jpg)
+![](d5output.jpg)
 <br>
 
 

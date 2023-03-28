@@ -143,25 +143,25 @@ cv2.destroyAllWindows()
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 
-![](OG.png)![](BGR2HSV.png)![](RGB2HSV.png)![](BGR2GRAY.png)![](RGB2GRAY.png)
+![](OG.jpg)![](BGR2HSV.jpg)![](RGB2HSV.jpg)![](BGR2GRAY.jpg)![](RGB2GRAY.jpg)
 <br>
 
 ### ii) HSV to RGB and BGR
-![](HSV.png)![](HSV2RGB.png)![](HSV2BGR.png)
+![](HSV.jpg)![](HSV2RGB.jpg)![](HSV2BGR.jpg)
 
-<br>
+<br> 
 
 ### iii) RGB and BGR to YCrCb
-![](Original_BGR.png)![](BGR2YCrCB.png)![](BGR2RGB.png)![](RGB2YCrCb.png)
+![](Original_BGR.jpg)![](BGR2YCrCB.jpg)![](BGR2RGB.jpg)![](RGB2YCrCb.jpg)
 
 
 
 ### iv) Split and merge RGB Image
-![](red_model.png)![](green_model.png)![](blue_model.png)![](merged.png)
+![](red_model.jpg)![](green_model.jpg)![](blue_model.jpg)![](merged.jpg)
 <br>
 
 ### v) Split and merge HSV Image
-![](initial_hsv.png)![](hue_model.png)![](sat_model.png)![](value_model.png)![](merged_img.png)
+![](initial_hsv.jpg)![](hue_model.jpg)![](sat_model.jpg)![](value_model.jpg)![](merged_img.jpg)
 <br>
 
 
